@@ -1,0 +1,176 @@
+footer{
+    margin-top: 300px;
+    width: 100%;
+    height: auto;
+    background: #232233;
+}
+.mailPhone{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    box-shadow: 0px -5px 50px rgba(0, 0, 0, 0.568);
+    background: white;
+    border-radius: 20px;
+    position: relative;
+    bottom: 100px;
+    padding: 0 50px;
+    animation: Mail linear;
+    animation-timeline: view();
+    animation-range: entry;
+    flex-wrap: wrap;
+}
+@keyframes Mail {
+    from{
+        transform: translateX(100px);
+    }    
+    to{
+        transform: translateX(0);
+    }
+}
+.tammy{
+    margin-top: 40px;
+}
+.mpicon{
+    width: 70px;
+    height: 70px;
+    background: #FEB918;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mpicon box-icon{
+    width: 40px;
+    height: 40px;
+}
+.call{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 80px;
+    gap: 20px;
+}
+.linia{
+    width: 1px;
+    height: 70px;
+    border: 2px solid #E6E6E6;
+}
+.call input{
+    height: 100%;
+    width: 75%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 27px;
+    color: #232233;
+}
+.call input::placeholder{
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.footerIcons{
+    margin-top: 10px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lin{
+    width: 1px;
+    height: 20px;
+    border: 1px solid #E6E6E6;
+}
+.quicklink{
+    color: #FFFFFF;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.linya{
+    margin-top: 40px;
+    width: 100%;
+    border-bottom: 2px solid #FFFFFF;
+}
+.tammy span{
+    color: #FEB918;
+}
+.tammy p{
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 14px;
+}
+.footerIcons box-icon{
+    transition: all 0.5s ease;
+}
+.footerIcons box-icon:hover{
+    transform: scale(2.2);
+    transition: all 0.5s ease;
+}
+
+.quick{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 35px;
+    margin-top: 40px;
+}
+
+
+.news p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.news{
+    margin-top: 40px;
+}
+.news_inp{
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.news_inp box-icon{
+    padding: 5px 5px;
+    width: 35px;
+    height: 35px;
+    background: #FEB918;
+}
+.news_inp input{
+    width: 260px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    padding-left: 12px;
+}
+
+.copyright{
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1000px) {
+    .linia{
+        display: none;
+    }
+}
